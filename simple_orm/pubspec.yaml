@@ -1,7 +1,9 @@
 name: simple_orm
 description: "simple ORM annotation"
-version: 0.0.1
-homepage: https://github.com/liuxb-tofu/SimpleORM
+version: 1.0.0
+authors:
+  - liuxiaobo<liuxiaobo19890731@gmail.com>
+homepage: https://github.com/liuxb-tofu/SimpleORM/tree/main/simple_orm
 
 environment:
   sdk: '>=3.3.3 <4.0.0'
