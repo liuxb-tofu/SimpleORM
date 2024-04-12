@@ -1,0 +1,11 @@
+builders:
+  db_generator:
+    import: "package:simple_orm_generator/generator/build.dart"
+    builder_factories: ["dbBuilder"]
+    build_extensions: {"^lib/db/entity/{{}}.dart": ["lib/db/generated/base_{{}}_dao.dart"]}
+    auto_apply: dependents
+    build_to: source
+    applies_builders: ["source_gen|combining_builder"]
+    defaults:
+      options:
+        test_key1: "test_key1"

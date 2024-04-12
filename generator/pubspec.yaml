@@ -1,0 +1,23 @@
+name: simple_orm_generator
+description: "simple ORM generator"
+version: 0.0.1
+homepage: https://github.com/liuxb-tofu/SimpleORM
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  analyzer: ^6.2.0
+  source_gen: any
+  build: ^2.0.0
+  simple_orm_annotation:
+    path: ../annotation
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_test: ^2.2.2
+
