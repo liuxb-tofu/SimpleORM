@@ -1,6 +1,6 @@
 name: simple_orm
-description: "simple ORM annotation"
-version: 1.0.0
+description: "This project is a simple version of ORM implemented based on sqflite. The advantage is that it supports adding table fields without updating the database version, which solves the problem of needing to upgrade the database version when the table structure changes. "
+version: 1.0.1
 authors:
   - liuxiaobo<liuxiaobo19890731@gmail.com>
 homepage: https://github.com/liuxb-tofu/SimpleORM/tree/main/simple_orm
@@ -13,3 +13,4 @@ dependencies:
   flutter:
     sdk: flutter
   sqflite: 2.3.3
+  simple_orm_annotation: ^1.0.0
